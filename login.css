@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(img/fondo1.webp);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.caja{
+    margin:auto;
+    width: 400px;
+    background: rgb(70, 70, 102);
+    padding: 30px;
+    margin-top: 100px;
+    border-radius:4px;
+    font-family: cursive;
+    color:white;
+    box-shadow: 7px 25px 37px black;
+}
+.caja h4{
+    font-size:30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.textField{
+    width: 100%;
+    background: rgba(194, 122, 136, 0.616);
+    border: 1px solid rgb(41, 64, 68);
+    box-shadow: black inset 2px 2px 2px;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: "Arial Black";
+    color:rgb(75, 75, 75);
+    
+}
+.caja p{
+    height: 40px;
+    text-align: right;
+    font-size: 18px;
+    line-height:50px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#bottom{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: rgb(14, 29, 56);
+    border:1px solid rgb(160, 153, 207);
+    padding: 12px;
+    color:white;
+    font-size:18px;
+    border-radius: 4px;
+    transition: all 0.1s;
+
+}
+.caja #ciudadItem{
+    background: rgb(14, 29, 56);
+}
+#registro{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: rgb(14, 29, 56);
+    border:1px solid rgb(160, 153, 207);
+    padding: 12px;
+    color:white;
+    font-size:18px;
+    border-radius: 4px;
+    transition: all 0.1s;
+}
+
+#bottom:hover{
+    transform:scale(0.9)
+}
+
+   
